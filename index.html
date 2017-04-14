@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Blockly Factory</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="./css/codemirror.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+                <a class="navbar-brand" href="#"></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li>
+                        <a href="#"></a>
+                    </li>
+
+                </ul>
+                <form class="navbar-form navbar-left" role="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#"></a>
+                    </li>
+
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <div class="container-fluid">
+        <div id="editor"></div>
+    </div>
+</body>
+<xml id="toolbox" style="display: none">
+    <block type="controls_if"></block>
+    <block type="controls_repeat_ext"></block>
+    <block type="logic_compare"></block>
+    <block type="math_number"></block>
+    <block type="math_arithmetic"></block>
+    <block type="text"></block>
+    <block type="text_print"></block>
+</xml>
+<script src="./js/jquery-3.2.0.min.js" charset="utf-8"></script>
+<script src="./js/bootstrap.min.js" charset="utf-8"></script>
+<script src="./js/codemirror.js" charset="utf-8"></script>
+<script src="./js/mode/xml/xml.js" charset="utf-8"></script>
+<script src="./js/blockly_compressed.js" charset="utf-8"></script>
+<script src="./js/blocks_compressed.js" charset="utf-8"></script>
+<script src="./msg/js/en.js" charset="utf-8"></script>
+<script src="./src/toolbox.js" charset="utf-8"></script>
+<script src="./src/bootstrapelement.js" charset="utf-8"></script>
+<script src="./src/factoryview.js" charset="utf-8"></script>
+<script src="./src/factorycontroller.js" charset="utf-8"></script>
+<script src="./src/factory.js" charset="utf-8"></script>
+<script src="./src/preview.js" charset="utf-8"></script>
+<script src="./src/toolboxfactory.js" charset="utf-8"></script>
+<script src="./src/workspacefactory.js" charset="utf-8"></script>
+<script src="./js/blocklyfactory.js" charset="utf-8"></script>
+</html>
